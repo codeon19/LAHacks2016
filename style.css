@@ -33,9 +33,11 @@ form input:focus {
     outline: none;
 }
 
-button.btn  {
+#btn {
+    -webkit-appearance:none;
+        
     background: transparent;
-    border: none;
+    border: none;s
     
     color: aquamarine;
     cursor: pointer;
@@ -47,7 +49,7 @@ button.btn  {
     transition: background 1s, color 1s;
 }
 
-button.btn:hover {
+#btn:hover {
     background: #00f28f;
     color: #fff;
 }
